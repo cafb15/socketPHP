@@ -1,0 +1,20 @@
+{
+    "name": "user/socket",
+    "description": "project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "macary",
+            "email": "carlos.farfan015@outlook.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "socket\\": "src/"
+        }
+    }
+}
